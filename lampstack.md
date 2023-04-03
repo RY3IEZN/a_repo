@@ -27,6 +27,11 @@ sudo apt install php libapache2-mod-php php-mysql -y
 This will install PHP along with the necessary modules for connecting to MySQL from PHP.
 
 Test PHP: To test if PHP is working correctly, create a new file called info.php in the web root directory:
+input and save this code into the file
+
+<?php
+phpinfo();
+
 Then, navigate to http://your_server_IP_address/info.php in your web browser. You should see a page with information about your PHP installation.
 
 ![image](https://user-images.githubusercontent.com/73601265/229634618-3de0c71e-7c81-452f-b311-df5e966623a9.png)
