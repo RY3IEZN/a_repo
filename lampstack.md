@@ -1,4 +1,3 @@
 <img src="https://user-images.githubusercontent.com/73601265/229630473-e0ebc011-9f39-4698-996b-2c513225bce8.png" alt="alt_text" style="height:50%;width:100%;">
 
-<img src="https://user-images.githubusercontent.com/73601265/229631523-f0c41953-caaf-4528-af59-1087f066747e.png)" alt="alt_text" style="height:50%;width:100%;">
-
+![image](https://user-images.githubusercontent.com/73601265/229631773-5ad9a9ca-8bfe-41b7-84e1-a2f171544662.png)
