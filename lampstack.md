@@ -1,4 +1,4 @@
-here are the steps to install the LAMP stack in Markdown format:
+here are the steps to install the LAMP stack on an ubuntu vm
 
 1.Update the package index: Before installing any software, it's a good practice to update the package index on your server. Run the following command to update the package index:
 
