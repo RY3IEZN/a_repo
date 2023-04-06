@@ -78,6 +78,6 @@ try {
 }`
 
 Save and close the file when you are done editing.
-You can now access this page in your web browser by visiting the domain name or public IP address configured for your website, followed by /todo_list.php:
+You can now access this page in your web browser by visiting the domain name or public IP address configured for your website, followed by /todo_list.php
 
-![image](https://user-images.githubusercontent.com/73601265/230256408-e7bb5ff1-7061-4a06-8164-0ee9f8bbf041.png)
+![image](https://user-images.githubusercontent.com/73601265/230256499-69de37ec-e9ef-491f-ab66-5fc2d5462ee7.png)
