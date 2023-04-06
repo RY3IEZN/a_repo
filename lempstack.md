@@ -120,7 +120,3 @@ try {
 You can now access this page in your web browser by visiting the domain name or public IP address configured for your website, followed by /todo_list.php
 
 #####################################
-
-##   
-![image](https://user-images.githubusercontent.com/73601265/230256734-fc8fdb67-07f3-42ad-883c-6a940db0d514.png)
-
