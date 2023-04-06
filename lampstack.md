@@ -33,7 +33,7 @@ Then, navigate to http://your_server_IP_address/info.php in your web browser. Yo
 
 ![image](https://user-images.githubusercontent.com/73601265/229634618-3de0c71e-7c81-452f-b311-df5e966623a9.png)
 
-#some extra steps to ensure php and mysql are communicating
+# some extra steps to ensure php and mysql are communicating
 login, create a new db, and save
 create a schema also
 
@@ -57,7 +57,8 @@ then create a php script that connects php to mysql
 
 sudo nano /var/www/projectLEMP/todo_list.php
 
-`<?php
+`
+<?php
 $user = "example_user";
 $password = "password";
 $database = "example_database";
