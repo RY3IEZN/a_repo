@@ -55,7 +55,7 @@ it should look like this
 
 then create a php script that connects php to mysql
 
-sudo nano /var/www/projectLEMP/todo_list.php
+sudo nano /var/www/projectLEMP/todo_list.php and add the following
 
 `
 <?php
@@ -77,3 +77,7 @@ try {
     die();
 }`
 
+Save and close the file when you are done editing.
+You can now access this page in your web browser by visiting the domain name or public IP address configured for your website, followed by /todo_list.php:
+
+![image](https://user-images.githubusercontent.com/73601265/230256408-e7bb5ff1-7061-4a06-8164-0ee9f8bbf041.png)
