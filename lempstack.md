@@ -113,7 +113,9 @@ try {
     die();
 }`
 
-Save and close the file when you are done editing.
+//
+
+7. Save and close the file when you are done editing.
 You can now access this page in your web browser by visiting the domain name or public IP address configured for your website, followed by /todo_list.php
 
 #####################################3
