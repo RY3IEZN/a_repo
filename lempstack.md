@@ -69,4 +69,52 @@ Save and close the file. Then, navigate to http://your_server_IP_address/info.ph
 ![image](https://user-images.githubusercontent.com/73601265/230250065-2dfbe981-a59e-4d2e-b3a9-07cdab8c54a5.png)
 
 
+# some extra steps to ensure php and mysql are communicating
+login, create a new db, and save
+create a schema also
+
+
+CREATE TABLE example_database.todo_list (
+     item_id INT AUTO_INCREMENT,
+     content VARCHAR(255),
+     PRIMARY KEY(item_id)
+);
+
+![image](https://user-images.githubusercontent.com/73601265/230253393-a3289764-98b4-44b7-a61c-360fa9e3f203.png)
+
+add some dummy data
+INSERT INTO example_database.todo_list (content) VALUES ("My 2ndt important item");
+INSERT INTO example_database.todo_list (content) VALUES ("My 3rd important item");
+
+it should look like this 
+![image](https://user-images.githubusercontent.com/73601265/230254170-98ecf61b-1189-4054-838a-967676b551b7.png)
+
+then create a php script that connects php to mysql
+
+sudo nano /var/www/projectLEMP/todo_list.php and add the following
+
+`
+<?php
+$user = "example_user";
+$password = "password";
+$database = "example_database";
+$table = "todo_list";
+
+
+try {
+  $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
+  echo "<h2>TODO</h2><ol>";
+  foreach($db->query("SELECT content FROM $table") as $row) {
+    echo "<li>" . $row['content'] . "</li>";
+  }
+  echo "</ol>";
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}`
+
+Save and close the file when you are done editing.
+You can now access this page in your web browser by visiting the domain name or public IP address configured for your website, followed by /todo_list.php
+
+![image](https://user-images.githubusercontent.com/73601265/230256499-69de37ec-e9ef-491f-ab66-5fc2d5462ee7.png)
 
