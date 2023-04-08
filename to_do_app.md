@@ -41,4 +41,10 @@ to start the application your run the `node index.js` and then visit your browse
 ![image](https://user-images.githubusercontent.com/73601265/230697194-2f07ffc1-1f26-4e93-8cbc-bcef3290136b.png)
 
 #### before we procced
-we need to write some code so help us work on the next section effectively, go ahead create a folder called `routes`, navigate into the folder `cd routes` create a file called `api.js` by typing `touch api.js` and fill it with the provided information
+
+a.we need to write some code so help us work on the next section effectively, go ahead create a folder called `routes`, navigate into the folder `cd routes` create a file called `api.js` by typing `touch api.js` and fill it with the provided information
+
+b.we also need to create models for our app, go ahead create a folder called `models`, navigate into the folder `cd models` create a file called `todo.js` by typing `touch todo.js` and fill it with the provided information:
+
+heres a shortcut `mkdir models && cd models && touch todo.js && nano todo.js` this will do the above step and open an editor for you
+
