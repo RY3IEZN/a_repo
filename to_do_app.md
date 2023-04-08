@@ -55,6 +55,7 @@ install the following
 run `npx create-react-app clinet` - creates a folder called client with the react app in it
 
 install the following
+
 `npm install concurrently`
 
 `npm install nodemon`
