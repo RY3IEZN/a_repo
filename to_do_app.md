@@ -48,3 +48,15 @@ b.we also need to create models for our app, go ahead create a folder called `mo
 
 heres a shortcut `mkdir models && cd models && touch todo.js && nano todo.js` this will do the above step and open an editor for you
 
+### step 5 create the frontend
+we will get back to create the db using mongo but for now lets quickly create the front end, wont take that much time
+install the following
+
+run `npx create-react-app clinet` - creates a folder called client with the react app in it
+install the following
+`
+npm install concurrently
+npm install nodemon
+npm install axios
+`
+
