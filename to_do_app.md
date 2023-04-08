@@ -67,6 +67,11 @@ when done you should have a simple page like this
 
 ![image](https://user-images.githubusercontent.com/73601265/230700282-382b82d4-be8a-409e-ae2e-a4276911cfc7.png)
 
+### step6 creating the db
+for this step we are going to be using mongo db, you can get a mongodb online or you can downlaod and use the community edition. you can visit for more instruction.
 
+we on the other hand will just get the mongodburl and add it as a .env variable. and then restart the app and we should get a connected message.. 
+
+"great, we are done"
 
 
