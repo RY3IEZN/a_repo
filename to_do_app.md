@@ -56,6 +56,8 @@ run `npx create-react-app clinet` - creates a folder called client with the reac
 
 install the following
 `npm install concurrently`
+
 `npm install nodemon`
+
 `npm install axios`
 
