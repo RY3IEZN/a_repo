@@ -39,3 +39,6 @@ feel free to use your editor of choice nano vi vim, i personally use nano.
 #### start and test the application.
 to start the application your run the `node index.js` and then visit your browser and go to `public_ip:5000`
 ![image](https://user-images.githubusercontent.com/73601265/230697194-2f07ffc1-1f26-4e93-8cbc-bcef3290136b.png)
+
+#### before we procced
+we need to write some code so help us work on the next section effectively, go ahead create a folder called `routes`, navigate into the folder `cd routes` create a file called `api.js` by typing `touch api.js` and fill it with the provided information
