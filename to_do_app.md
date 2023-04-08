@@ -62,3 +62,11 @@ install the following
 
 `npm install axios`
 
+Some information will be provided to you on how the app should look like, so update the files, app.js,app.css,index.js.index.css
+when done you should have a simple page like this 
+
+![image](https://user-images.githubusercontent.com/73601265/230700282-382b82d4-be8a-409e-ae2e-a4276911cfc7.png)
+
+
+
+
