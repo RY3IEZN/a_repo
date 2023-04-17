@@ -10,4 +10,11 @@ login in to your desired csp and create 2 virtual machines
 
 # step2 install mysql server on 1 vm and mysql client on the other vm
 
-#### vm1
+### vm1 mysql server
+as usual update, upgrade, install run as follows
+
+`sudo apt update`
+
+`sudo apt upgrade`
+
+`sudo apt install mysql-server`
