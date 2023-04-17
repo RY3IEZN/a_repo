@@ -1,16 +1,23 @@
 # step1 install nodejs
 as usual apt update and upgrade
+
 `sudo apt update && sudo apt upgrade`
 
 then apt install nodejs
+
 `sudo apt install -y nodejs`
 
 check if it installed properly check the version
+
 `node -v`
 
-#step2 install mongodb
+# step2 install mongodb
 ill leave a link to a guide on how to install mongodb and test it by using the command mongod
 https://www.linode.com/docs/guides/install-mongodb-on-ubuntu-20-04/
+
+# step3 install npm and body parser
+
+`sudo apt install -y npm`
 
 
 when you are done vist your publicIP:3300 and you should have something looking like this
