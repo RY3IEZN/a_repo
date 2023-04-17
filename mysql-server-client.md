@@ -47,3 +47,21 @@ run it on both to secure the db in the vm
 ping the client from the server and vice versa
 using the "ping" command
 eg `ping <private_ip_address>`
+
+![image](https://user-images.githubusercontent.com/73601265/232490505-f24b7879-50ff-48f1-b2df-ecc8c60de16a.png)
+
+![image](https://user-images.githubusercontent.com/73601265/232490780-0e23d7fc-ce47-4440-b91f-cb975764b132.png)
+
+
+# step5 connect to the server from the client
+
+`mysql --host=<ipaddress> --user=root --password`
+
+![image](https://user-images.githubusercontent.com/73601265/232495045-3c047ec1-b078-40a8-b46d-9bae419d8ed1.png)
+
+see other default dbs by running this command while insde the mysql terminal
+
+![image](https://user-images.githubusercontent.com/73601265/232495683-a0769341-b180-45e3-9876-779c98d0a5a4.png)
+
+congrats, we are done
+
