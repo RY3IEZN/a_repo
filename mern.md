@@ -51,12 +51,22 @@ create a file called book.js and update it with code from the repo
 
 `cd ../..`
 
+mkdir public && cd public
+
+create a file called script.js and update it with code from the repo
+create a file called index.html and update it with code from the repo
+
+# step5 start the application 
+*****ensure that your are in the books directory**** 
+then run the command
+
+`node server.js`
+
+it should start and be running on port:3300 and should look something like this
+
+![image](https://user-images.githubusercontent.com/73601265/232478362-b0f61a73-7339-4757-a769-69690bca53d8.png)
 
 
-
-
-
-
-
+# step6 visit the application in your browser
 when you are done vist your publicIP:3300 and you should have something looking like this
 ![image](https://user-images.githubusercontent.com/73601265/232447555-bb296fc4-9207-4b16-88dc-f57e7cfe7152.png)
