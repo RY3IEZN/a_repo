@@ -8,5 +8,10 @@ then apt install nodejs
 check if it installed properly check the version
 `node -v`
 
+#step2 install mongodb
+ill leave a link to a guide on how to install mongodb and test it by using the command mongod
+https://www.linode.com/docs/guides/install-mongodb-on-ubuntu-20-04/
+
+
 when you are done vist your publicIP:3300 and you should have something looking like this
 ![image](https://user-images.githubusercontent.com/73601265/232447555-bb296fc4-9207-4b16-88dc-f57e7cfe7152.png)
