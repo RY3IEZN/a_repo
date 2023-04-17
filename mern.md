@@ -25,7 +25,7 @@ https://www.linode.com/docs/guides/install-mongodb-on-ubuntu-20-04/
 
 `sudo npm install mongoose`
 
-#4 step4 create the folder directories, copy the code and files
+# step4 create the folder directories, copy the code and files
 
 `mkdir Books && cd Books`
 
@@ -46,6 +46,10 @@ in the "apps folder", make a directory and update as below
 `mkdir models && cd models`
 
 create a file called book.js and update it with code from the repo
+
+***change back to the main directory"book" and then continue***
+
+`cd ../..`
 
 
 
