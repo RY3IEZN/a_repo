@@ -36,7 +36,8 @@ run the command `lsblk`
 
 run this cmds in the order
 
-``` mkdir wordpress
+``` 
+mkdir wordpress
 
 cd   wordpress
 
