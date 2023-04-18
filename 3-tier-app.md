@@ -52,4 +52,55 @@ cp wordpress/wp-config-sample.php wordpress/wp-config.php
 cp -R wordpress /var/www/html/ 
 
 ```
+***install and connect mysql to wordpress***
+NB. THIS SHOULD BE DONE ON THE DB SERVER FIRST
+quickly run
+
+```
+sudo yum update
+sudo yum install mysql-server
+```
+
+enable start status of mysql
+
+```
+sudo systemctl restart mysqld
+sudo systemctl enable mysqld
+```
+
+create a user and a db
+```
+sudo mysql
+CREATE DATABASE wordpress;
+CREATE USER `myuser`@`<Web-Server-Private-IP-Address>` IDENTIFIED BY 'mypass';
+GRANT ALL ON wordpress.* TO 'myuser'@'<Web-Server-Private-IP-Address>';
+FLUSH PRIVILEGES;
+SHOW DATABASES;
+exit
+```
+
+![image](https://user-images.githubusercontent.com/73601265/232915592-49f55438-da3c-4083-9162-b7299771ccb4.png)
+
+***install mysql clinet and confirm you can reach the otherdb***
+
+![image](https://user-images.githubusercontent.com/73601265/232916181-462df927-da2c-48a0-8a2f-1eaccda3262e.png)
+
+NB. THIS SHOULD BE DONE ON THE WEBSERVER NEXT
+
+```
+sudo yum update
+sudo yum install mysql-client
+```
+***connect to the other db***
+
+sudo mysql -u admin -p -h <DB-Server-Private-IP-address>
+ 
+ 
+ # finally visit your website via yourPublicIp/wordpress
+ 
+ ![image](https://user-images.githubusercontent.com/73601265/232920120-b3dc47d5-c66f-4357-943e-8ec65a8db6ab.png)
+
+
+
+
 
