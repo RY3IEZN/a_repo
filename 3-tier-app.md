@@ -14,3 +14,10 @@ run the command `lsblk`
 
 ![image](https://user-images.githubusercontent.com/73601265/232903864-9ce73920-7389-44b4-8e4d-8486fd0e8cb9.png)
 
+
+
+# step4 install wordpress apache on the WEB SERVER
+
+ this time around its `sudo yum -y update`
+ 
+ 
