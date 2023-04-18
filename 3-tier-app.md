@@ -36,7 +36,7 @@ run the command `lsblk`
 
 run this cmds in the order
 
-` mkdir wordpress
+``` mkdir wordpress
 
 cd   wordpress
 
@@ -48,5 +48,7 @@ sudo rm -rf latest.tar.gz
 
 cp wordpress/wp-config-sample.php wordpress/wp-config.php
 
-cp -R wordpress /var/www/html/ `
+cp -R wordpress /var/www/html/ 
+
+```
 
