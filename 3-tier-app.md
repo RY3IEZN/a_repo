@@ -36,12 +36,18 @@ run the command `lsblk`
 
 run this cmds in the order
 
-` mkdir wordpress
-  cd   wordpress
-  sudo wget http://wordpress.org/latest.tar.gz
-  sudo tar xzvf latest.tar.gz
-  sudo rm -rf latest.tar.gz
-  cp wordpress/wp-config-sample.php wordpress/wp-config.php
-  cp -R wordpress /var/www/html/
+`mkdir wordpress
+
+cd   wordpress
+
+sudo wget http://wordpress.org/latest.tar.gz
+
+sudo tar xzvf latest.tar.gz
+
+sudo rm -rf latest.tar.gz
+
+cp wordpress/wp-config-sample.php wordpress/wp-config.php
+
+cp -R wordpress /var/www/html/
 `
 
