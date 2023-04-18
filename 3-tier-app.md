@@ -20,4 +20,11 @@ run the command `lsblk`
 
  this time around its `sudo yum -y update`
  
+ ***install apache and its other dependencies php wget***
  
+ `sudo yum install httpd php wget`
+ 
+ *** enable,start,check status of apache***
+ 
+ `sudo systemctl start httpd`
+ `sudo systemctl status httpd`
