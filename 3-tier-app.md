@@ -24,7 +24,23 @@ run the command `lsblk`
  
  `sudo yum install httpd php wget`
  
- *** enable,start,check status of apache***
+ ***enable,start,check status of apache***
  
  `sudo systemctl start httpd`
+ 
  `sudo systemctl status httpd`
+
+![image](https://user-images.githubusercontent.com/73601265/232910532-7ce2afd5-6549-4352-b156-7bcc8a716b47.png)
+
+***install wordpress, move it to /var/html/www***
+
+run this cmds in the order
+
+` mkdir wordpress
+  cd   wordpress
+  sudo wget http://wordpress.org/latest.tar.gz
+  sudo tar xzvf latest.tar.gz
+  sudo rm -rf latest.tar.gz
+  cp wordpress/wp-config-sample.php wordpress/wp-config.php
+  cp -R wordpress /var/www/html/
+`
