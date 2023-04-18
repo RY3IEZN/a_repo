@@ -48,7 +48,5 @@ sudo rm -rf latest.tar.gz
 
 cp wordpress/wp-config-sample.php wordpress/wp-config.php
 
-cp -R wordpress /var/www/html/
-
-`
+cp -R wordpress /var/www/html/`
 
