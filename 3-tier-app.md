@@ -44,3 +44,4 @@ run this cmds in the order
   cp wordpress/wp-config-sample.php wordpress/wp-config.php
   cp -R wordpress /var/www/html/
 `
+
